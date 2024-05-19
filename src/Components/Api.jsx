@@ -1,6 +1,10 @@
 import axios from 'axios';
 
-const ServerUrl = "http://localhost:3000";
+// for developement purpose
+// const ServerUrl = "http://localhost:3000";
+// for production
+const ServerUrl = "https://kagazpatra-backend-wqjr.onrender.com"
+
 
 const api = axios.create({ baseURL: ServerUrl });
 
